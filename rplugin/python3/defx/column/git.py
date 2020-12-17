@@ -23,13 +23,13 @@ class Column(Base):
         self.has_get_with_highlights = True
         self.vars = {
             'indicators': {
-                'Modified': '✹',
-                'Staged': '✚',
-                'Untracked': '✭',
+                'Modified': 'M',
+                'Staged': 'A',
+                'Untracked': '?',
                 'Renamed': '➜',
-                'Unmerged': '═',
-                'Ignored': '☒',
-                'Deleted': '✖',
+                'Unmerged': '!',
+                'Ignored': '.',
+                'Deleted': 'D',
                 'Unknown': '?'
             },
             'column_length': 1,
